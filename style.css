@@ -14,12 +14,15 @@ body {
 audio{
   width: 210px;
   height: 50px;
+  
 }
 .music{
   margin: auto;
   background-color: inherit;
   width: 210px;
   height: 50px;
+  position: static; 
+  z-index: auto;
  
 }
 
@@ -55,6 +58,9 @@ audio{
   display: flex;
   align-items: center;
   position: fixed;
+  
+  top: 0;
+  z-index: 1000; 
 }
 
 .navigations nav {
